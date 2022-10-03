@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Udemy_Project\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
+		"D:\\Udemy_Project\\ObstacleAssault\\Source\\ObstacleAssault.Target.cs",
+		"D:\\Udemy_Project\\ObstacleAssault\\Source\\ObstacleAssaultEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
