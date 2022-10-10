@@ -35,7 +35,7 @@ void AMovingPlatform::MovePlatform(float DeltaTime){
 		PlatformVelocity = -PlatformVelocity;								//PlatformVelocity를 거꾸로가게 만든다.
 		SetActorLocation(StartLocation);									//시작지점을 현재 도착한 지점(MoveDistance보다 현재 크니까 지금이 터닝포인트)로 지정한다.
 	}else{
-		CurrentLocation = GetActorLocation();complete
+		CurrentLocation = GetActorLocation();
 		CurrentLocation = CurrentLocation + PlatformVelocity*DeltaTime;
 		SetActorLocation(CurrentLocation);
 	}	
